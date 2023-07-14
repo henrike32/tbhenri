@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom"
+
 import "./App.css"
 import mockUsers from "./mockUsers.js";
 import mockApartments from "./mockApartments.js";
+
 import Header from "./components/Header.js"
 import Footer from "./components/Footer.js";
 
