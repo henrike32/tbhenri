@@ -9,23 +9,23 @@ const Header = () => {
 
   return (
     <div className="header">
-      <Navbar>
+      <div className="logo-container">
         <NavbarBrand href="/">
           <img src="../TBH.png" alt="logo" className="logo" />
         </NavbarBrand>
-        <div className="sl-container">
-          <Link to="/Signup">
-            <Button className="sl-button" onClick={handleClick}>
-              Sign Up
-            </Button>
-          </Link>
-          <Link to="/Login">
-            <Button className="sl-button" onClick={handleClick}>
-              Login
-            </Button>
-          </Link>
-        </div>
-      </Navbar>
+      </div>
+      <div className="sl-container">
+        <Link to="/Signup">
+          <Button className="sl-button" onClick={handleClick}>
+            Sign Up
+          </Button>
+        </Link>
+        <Link to="/Login">
+          <Button className="sl-button" onClick={handleClick}>
+            Login
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 };

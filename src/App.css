@@ -1,42 +1,46 @@
 /* Header container */
 .header {
-    background-color: black;
-    position: sticky;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 /* Navbar styles */
 .navbar {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* Logo styling */
 .logo {
-    height: 21vmin;
-    width: 21vmin;
-    margin-left: 11%;
+  margin-right: 44rem;
+  margin-left: 58rem;
+  height: 21vmin;
+  width: 21vmin;
 }
 
 /* Button container */
 .sl-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5rem;
 }
 
 /* Button styles */
 .sl-button {
-    background-color: black;
-    color: lightblue;
-    border: 2px solid lightblue;
-    border-radius: 3px;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-size: large;
-    margin-inline: 10px;
+  background-color: black;
+  color: lightblue;
+  border: 2px solid lightblue;
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: large;
+  margin-inline: 10px;
 }
 
 /* end of header components */
@@ -85,6 +89,7 @@
   text-align: center;
   font-size: 75px;
   color: lightblue;
+  margin-bottom: 2%;
 }
 /* end of home */
 
@@ -109,4 +114,20 @@
   color: lightblue;
   padding: 5%;
   align-content: center
+}
+/* end of index components */
+
+.signup-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered form */
+.signup-form {
+  /* Your existing styles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
